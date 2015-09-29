@@ -1,6 +1,6 @@
 Name     : rubygems
 Version  : 2.4.8
-Release  : 9
+Release  : 10
 URL      : http://production.cf.rubygems.org/rubygems/rubygems-2.4.8.tgz
 Source0  : http://production.cf.rubygems.org/rubygems/rubygems-2.4.8.tgz
 Summary  : The Ruby standard for publishing and managing third party libraries.
