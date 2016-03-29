@@ -1,8 +1,8 @@
 Name     : rubygems
-Version  : 2.4.8
+Version  : 2.6.2
 Release  : 10
-URL      : http://production.cf.rubygems.org/rubygems/rubygems-2.4.8.tgz
-Source0  : http://production.cf.rubygems.org/rubygems/rubygems-2.4.8.tgz
+URL      : https://rubygems.org/rubygems/rubygems-2.6.2.tgz
+Source0  : https://rubygems.org/rubygems/rubygems-2.6.2.tgz
 Summary  : The Ruby standard for publishing and managing third party libraries.
 Group    : Development/Tools
 License  : Ruby
@@ -52,16 +52,16 @@ mkdir -p %{buildroot}%{_bindir}
 mv %{buildroot}%{_datarootdir}/rubygems/bin/gem %{buildroot}%{_bindir}/gem
 rm -rf %{buildroot}%{_datarootdir}/rubygems/bin
 
-mkdir -p %{buildroot}%{_libdir}/ruby/2.2.0
-mv %{buildroot}%{_datarootdir}/rubygems/lib/* %{buildroot}%{_libdir}/ruby/2.2.0/.
+mkdir -p %{buildroot}%{_libdir}/ruby/2.3.0
+mv %{buildroot}%{_datarootdir}/rubygems/lib/* %{buildroot}%{_libdir}/ruby/2.3.0/.
 
 
 %files
 %defattr(-,root,root,-)
-%{_libdir}/ruby/2.2.0/rubygems/*
-%{_libdir}/ruby/2.2.0/rubygems.rb
-%{_libdir}/ruby/2.2.0/ubygems.rb
-%{_libdir}/ruby/2.2.0/gauntlet_rubygems.rb
+%{_libdir}/ruby/2.3.0/rubygems/*
+%{_libdir}/ruby/2.3.0/rubygems.rb
+%{_libdir}/ruby/2.3.0/ubygems.rb
+%{_libdir}/ruby/2.3.0/gauntlet_rubygems.rb
 
 %files bin
 %defattr(-,root,root,-)

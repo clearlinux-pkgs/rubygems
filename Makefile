@@ -1,4 +1,5 @@
 PKG_NAME := rubygems
-URL := http://production.cf.rubygems.org/rubygems/rubygems-2.4.8.tgz
+URL := https://rubygems.org/rubygems/rubygems-2.6.2.tgz
+ARCHIVES :=
 
 include ../common/Makefile.common
