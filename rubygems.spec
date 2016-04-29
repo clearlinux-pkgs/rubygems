@@ -1,6 +1,6 @@
 Name     : rubygems
 Version  : 2.6.2
-Release  : 11
+Release  : 12
 URL      : https://rubygems.org/rubygems/rubygems-2.6.2.tgz
 Source0  : https://rubygems.org/rubygems/rubygems-2.6.2.tgz
 Summary  : The Ruby standard for publishing and managing third party libraries.
